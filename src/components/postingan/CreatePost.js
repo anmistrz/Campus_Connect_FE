@@ -50,7 +50,7 @@ const CreatePost = ({ setData }) => {
   const image = watch("image");
   // console.log(image);
   async function onSubmit(values) {
-    // setValue("image", inputImage);
+    //setValue("image", inputImage);
     try {
       console.log(values);
       let filename = "";
